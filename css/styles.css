@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color:#555;
+}
+
+header {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: relative;
+}
+
+main {
+    padding: 20px;
+}
+
+#news {
+    margin-bottom: 20px;
+}
+
+article {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+#load-more {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#load-more:hover {
+    background-color: #555;
+}
+
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Alinhar a logo verticalmente */
+}
+
+
+
+
+.logo {
+    max-width: 100px;
+    height: auto;
+    margin-right: 1px; /* Espaçamento entre a logo e a barra de pesquisa */
+    margin-left: 20px;
+}
+
+
+
+.search-container {
+    margin-right: 20px; /* Margem para afastar a barra de busca do ícone do menu */
+}
+
+.search-input {
+    width: 200px; /* Largura da barra de busca */
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+.menu {
+    display: flex;
+    
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.menu ul li {
+    margin: 0;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    background-color: #555;
+}
+
+
+/* Estilos de formulário de contato */
+.contact-section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    text-align: left;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+ 
+
+
+
+.highlight {
+    background-color: yellow;
+}
+
+
+button#changeColorButton {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 10px;
+    margin-left: 1px;
+    margin-right: 15px;
+}
+
+
+
+
+
+.hero {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 60px 0;
+}
+
+.news-section {
+    padding: 20px 0;
+}
+
+.news-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.news-item {
+    flex: 1 1 calc(33.333% - 20px);
+    background: white;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+
